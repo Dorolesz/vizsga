@@ -1,0 +1,2 @@
+Halász Gábor GitHub:
+https://github.com/hgabor/nestjs-keret-2024.git

@@ -1,0 +1,20 @@
+schema.prisma
+
+model ___ {
+    id Int @id @default(autoincrement())
+    -- például -->
+    __ String
+    __ Int
+    __ DateTime
+    __ Boolean
+    -- idegen kulcs például -->
+    __ __s @relation(fields: [ ##_id], references: [id])
+}
+
+
+seed.ts
+
+seed: https://www.prisma.io/docs/orm/prisma-migrate/workflows/seeding
+faker:  https://fakerjs.dev/guide/usage.html
+
+BigInt átalakítása Numberbe: https://www.prisma.io/docs/orm/prisma-client/special-fields-and-types
